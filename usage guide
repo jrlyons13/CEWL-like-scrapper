@@ -1,0 +1,12 @@
+# CEWL-Like Scraper (Python)
+
+This is a Python-based alternative to CEWL, designed for environments where Ruby or Kali tools aren't available (e.g., Amazon Linux, Ubuntu minimal installs).
+## :mag: What It Does
+
+Recursively crawls a website
+Extracts words 5+ characters long
+Deduplicates and outputs to a clean wordlist
+
+## :package: Requirements
+```bash
+pip3 install -r requirements.txt
